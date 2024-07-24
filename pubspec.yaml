@@ -1,0 +1,83 @@
+name: skeleton_clean_arch_flutter
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.6
+  get_it: ^7.7.0
+  equatable: ^2.0.5
+  dio: ^5.5.0+1
+  shared_preferences: ^2.2.3
+  icons_launcher: ^2.1.7
+  http: ^1.2.2 
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  dartz: ^0.10.1
+  connectivity_plus: ^2.3.8
+  video_player: ^2.9.1
+  cached_network_image: ^3.3.1
+
+# if you want to generate a new icon, change the 'image_path' variable for your icon and run the following command:
+# dart run icons_launcher:create
+icons_launcher:
+  image_path: "assets/icons/launcher_icon.jpeg"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+    web: 
+      enable: true
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/icons/
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
